@@ -1,5 +1,5 @@
 {
   "mysql": {"server_root_password": "abacabbadcafe", "server_debian_password": "abacabdadcafe", "server_repl_password": "abacabfadcafe"},
-  "phpapp": {"db_password": "abacabcadcafe"},
+  "phpapp": {"db_password": "abacabcadcafe", "server_name": "192.168.1.133"},
   "run_list": [ "recipe[apt]", "recipe[phpapp]" ]
 }
