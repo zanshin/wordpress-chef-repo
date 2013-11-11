@@ -1,4 +1,5 @@
 {
   "mysql": {"server_root_password": "abacabbadcafe", "server_debian_password": "abacabdadcafe", "server_repl_password": "abacabfadcafe"},
+  "phpapp": {"db_password": "abacabcadcafe"},
   "run_list": [ "recipe[apt]", "recipe[phpapp]" ]
 }
